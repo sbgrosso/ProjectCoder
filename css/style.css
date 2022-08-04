@@ -3,10 +3,48 @@
   padding: 0;
 }
 
+#grilla {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "video"
+    "imagenes"
+    "perfiles"
+    "videoFooter"
+    "footer";
+}
+.border {
+  border: 1px solid black;
+}
+header {
+  grid-area: header;
+}
+footer {
+  grid-area: footer;
+}
+section#perfiles {
+  grid-area: perfiles;     
+}
+section#imagenes {
+  grid-area: imagenes;     
+}
+
+section#video {
+  grid-area: video;     
+}
+section#videoFooter {
+  grid-area: videoFooter;     
+}
+
+
+
+
 .menuHome {
+  z-index: 1;
   background-color: gray;
   display: flex;
   position: fixed;
+  font-weight: bold;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
   margin: auto;
@@ -54,7 +92,7 @@ body {
   color: white
 }
 
-.videoContainer>iframe {
+.videoContainer>video {
   object-fit: cover;
   margin-top: 50px;
   width: 100%;
@@ -211,13 +249,16 @@ footer {
 }
 
 @keyframes T {
-  0%  {
+  0% {
     opacity: 0.9;
-    color: black; }
-    100% {
-      opacity: 1;
-      color:beige; }
-    }
+    color: black;
+  }
+
+  100% {
+    opacity: 1;
+    color: beige;
+  }
+}
 
 .animationT {
   animation-duration: 3.5s;
@@ -232,3 +273,6 @@ footer {
   margin: 5px;
   box-sizing: content-box;
 }
+
+
+

@@ -1,112 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Home</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--Home-->
-    <header class="menuHome">
-        <img src="./images/Icono.png" alt="Logo">
+    <main id="grilla">
+      <header class="menuHome">
+        <img src="./images/Icono.png" alt="Logo" />
         <nav>
-            <ul id="menu">
-                <li class="bottonMenu"><a href="./index.html">Home</a>
-                <li class="bottonMenu"><a href="./pages/Perfil1.html">Sofia Grosso</a></li>
-                <li class="bottonMenu"><a href="./pages/Perfil2.html">Emiliana Escobar</a></li>
-                <li class="bottonMenu"><a href="./pages/Sobrenosotras.html">About us</a></li>
-                <li class="bottonMenu"><a href="./pages/Contacto.html">Contact</a></li>
-
-            </ul>
+          <ul id="menu">
+            <li class="bottonMenu"><a href="./index.html">Home</a></li>
+            <li class="bottonMenu">
+              <a href="./pages/Perfil1.html">Sofia Grosso</a>
+            </li>
+            <li class="bottonMenu">
+              <a href="./pages/Perfil2.html">Emiliana Escobar</a>
+            </li>
+            <li class="bottonMenu">
+              <a href="./pages/Sobrenosotras.html">About us</a>
+            </li>
+            <li class="bottonMenu">
+              <a href="./pages/Contacto.html">Contact</a>
+            </li>
+          </ul>
         </nav>
+      </header>
+      <!--Video-->
+      <section id="video" class="videoContainer">
+        <video src="./images/cosahorrorosa.mp4" autoplay muted loop></video>
+      </section>
 
-    </header>
-    <main>
-        <!--Video-->
-        <div class=videoContainer>
-            <video
-                src="./images/cosahorrorosa.mp4"
-                autoplay muted loop></video>
+      <!--Imagen-->
+      <section id="imagenes">
+        <img
+          class="imagenesCompletas"
+          src="./images/Game On.png"
+          alt="webelieve"
+        />
+      </section>
+      <section id="perfiles">
+      <!--Perfil1-->
+            <div class="perfil">
+        <img src="./images/me.png" alt="Me" sizes="width=" 600" height="600""
+        srcset="">
+        <div class="perfil__texto">
+          <h1>Sofia Grosso</h1>
+          <p class="italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
+      </div>
 
-        <!--Imagen-->
-        <div>
-            <img class="imagenesCompletas" src="./images/Game On.png" alt="webelieve">
+      <!--Perfil2-->
+      <div class="perfil">
+        <div class="perfil__texto">
+          <h1>Emiliana Escobar</h1>
+
+          <p class="italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
-
-        <!--Perfil1-->
-        <div class="perfil">
-            <img src="./images/me.png" alt="Me" sizes="width=" 600" height="600"" srcset=""> 
-        <div class=" perfil__texto">
-            <h1>Sofia Grosso</h1>
-            <p class=" italic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt
-                ut
-                labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip
-                ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat
-                nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                anim
-                id
-                est
-                laborum.</p>
-        </div>
-        </div>
-
-        <!--Perfil2-->
-        <div class="perfil">
-
-            <div class="perfil__texto">
-                <h1>Emiliana Escobar</h1>
-
-                <p class=" italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt
-                    ut
-                    labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat
-                    nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim
-                    id
-                    est
-                    laborum.</p>
-            </div>
-            <img src="./images/Emiliana.jpg" alt="EmilianasPicture" sizes="width=" 600" height="600"" srcset="">
-    </div>
-
+        <img src="./images/Emiliana.jpg" alt="EmilianasPicture" sizes="width="
+        600" height="600"" srcset="">
+      </div>
+    </section>
       <!--VideoDos-->
-   <div class=videoContainer>
-    <video src="./images/production ID_5069197.mp4"
-        autoplay muted loop></video>
-</div>
+      <section id="videoFooter" class="videoContainer">
+        <video
+          src="./images/production ID_5069197.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+      </section>
 
-
-        <footer class=" footer">
-            <a href="https://instagram.com/fulltech"><img class="icono"
-                    src="https://flyclipart.com/thumb2/instagram-logo-icon-instagram-gif-transparent-png-884500.png"
-                    alt="Instagram"></a>
-            <a href="https://facebook.com/fulltech"><img class="icono"
-                    src="https://toppng.com/uploads/preview/facebook-logo-white-11549845815wclpvkfdsb.png"
-                    alt="Facebook"></a>
-            <a href="https://linkedin.com/fulltech"><img class="icono"
-                    src="https://w7.pngwing.com/pngs/370/508/png-transparent-logo-linkedin-computer-icons-social-media-linked-angle-text-logo.png"
-                    alt="LinkedIn"></a>
-
-        </footer>
-
+      <footer class="footer">
+        <a href="https://instagram.com/fulltech"
+          ><img
+            class="icono"
+            src="https://flyclipart.com/thumb2/instagram-logo-icon-instagram-gif-transparent-png-884500.png"
+            alt="Instagram"
+        /></a>
+        <a href="https://facebook.com/fulltech"
+          ><img
+            class="icono"
+            src="https://toppng.com/uploads/preview/facebook-logo-white-11549845815wclpvkfdsb.png"
+            alt="Facebook"
+        /></a>
+        <a href="https://linkedin.com/fulltech"
+          ><img
+            class="icono"
+            src="https://w7.pngwing.com/pngs/370/508/png-transparent-logo-linkedin-computer-icons-social-media-linked-angle-text-logo.png"
+            alt="LinkedIn"
+        /></a>
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>
