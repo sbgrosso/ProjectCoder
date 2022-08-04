@@ -209,3 +209,26 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+
+@keyframes T {
+  0%  {
+    opacity: 0.9;
+    color: black; }
+    100% {
+      opacity: 1;
+      color:beige; }
+    }
+
+.animationT {
+  animation-duration: 3.5s;
+  animation-name: T;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+  color: gray;
+  border: 2px double greenyellow;
+  outline: 1.5px solid beige;
+  outline-offset: -9px;
+  padding: 8px 8px;
+  margin: 5px;
+  box-sizing: content-box;
+}
