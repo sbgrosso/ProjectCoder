@@ -12,42 +12,6 @@
 
 
 
-#grilla {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "video"
-    "imagenes"
-    "perfiles"
-    "videoFooter"
-    "footer";
-}
-.border {
-  border: 1px solid black;
-}
-header {
-  grid-area: header;
-}
-footer {
-  grid-area: footer;
-}
-section#perfiles {
-  grid-area: perfiles;     
-}
-section#imagenes {
-  grid-area: imagenes;     
-}
-
-section#video {
-  grid-area: video;     
-}
-section#videoFooter {
-  grid-area: videoFooter;     
-}
-
-
-
-
 .menuHome {
   z-index: 1;
   background-color: rgb(0, 0, 0);
@@ -94,6 +58,39 @@ ul {
 
 .bottonMenu {
   margin-top: 10px;
+}
+
+#grilla {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "video"
+    "imagenes"
+    "perfiles"
+    "videoFooter"
+    "footer";
+}
+.border {
+  border: 1px solid black;
+}
+header {
+  grid-area: header;
+}
+footer {
+  grid-area: footer;
+}
+section#perfiles {
+  grid-area: perfiles;     
+}
+section#imagenes {
+  grid-area: imagenes;     
+}
+
+section#video {
+  grid-area: video;     
+}
+section#videoFooter {
+  grid-area: videoFooter;     
 }
 
 body {
