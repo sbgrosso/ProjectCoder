@@ -1,3 +1,7 @@
+.comentariosarea {
+  width: 300px;
+  height: 150px; }
+
 .parrafo {
   color: beige; }
 
@@ -61,7 +65,8 @@ header {
   grid-area: header; }
 
 footer {
-  grid-area: footer; }
+  grid-area: footer;
+  margin-bottom: 25px; }
 
 section#perfiles {
   grid-area: perfiles; }
