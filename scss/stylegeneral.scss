@@ -1,91 +1,113 @@
-.parrafo {
-  color: beige; }
-
 /*!
  * Bootstrap Grid v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
+
+
 
 .menuHome {
   z-index: 1;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   display: flex;
   position: fixed;
   font-weight: bold;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
   margin: auto;
-  height: 36px; }
+  height: 36px;
+}
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
-#menu li > a {
-  background-color: black;
+#menu li>a {
+  background-color: rgb(0, 0, 0);
   color: white;
   padding: 0 10px;
   display: block;
   text-decoration: none;
-  width: 100%; }
+  width: 100%;
 
-#menu li > a:hover {
-  color: #fbf9f9;
-  background-color: #0b0b0b; }
+}
 
-#menu > li {
+#menu li>a:hover {
+  color: rgb(251, 249, 249);
+  background-color: #0b0b0b;
+}
+
+#menu>li {
   float: left;
-  text-align: center; }
+  text-align: center
+}
 
-#menu > li > ul {
-  display: none; }
+#menu>li>ul {
+  display: none;
+}
 
-#menu > li:hover > ul {
-  display: block; }
+#menu>li:hover>ul {
+  display: block;
+}
 
 .bottonMenu {
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 #grilla {
   display: grid;
-  grid-template-areas: "header" "video" "imagenes" "perfiles" "videoFooter" "footer"; }
-
+  grid-template-areas:
+    "header"
+    "video"
+    "imagenes"
+    "perfiles"
+    "videoFooter"
+    "footer";
+}
 .border {
-  border: 1px solid black; }
-
+  border: 1px solid black;
+}
 header {
-  grid-area: header; }
-
+  grid-area: header;
+}
 footer {
-  grid-area: footer; }
-
+  grid-area: footer;
+}
 section#perfiles {
-  grid-area: perfiles; }
-
+  grid-area: perfiles;     
+}
 section#imagenes {
-  grid-area: imagenes; }
+  grid-area: imagenes;     
+}
 
 section#video {
-  grid-area: video; }
-
+  grid-area: video;     
+}
 section#videoFooter {
-  grid-area: videoFooter; }
+  grid-area: videoFooter;     
+}
 
 body {
   background-color: black;
-  color: white; }
+  color: white
+}
 
-.videoContainer > video {
+.videoContainer>video {
   object-fit: cover;
   margin-top: 50px;
   width: 100%;
   height: 100%;
   min-height: 100%;
-  min-width: 100%; }
+  min-width: 100%;
+
+}
+
 
 .italic {
   color: beige;
@@ -94,7 +116,8 @@ body {
   text-align: right;
   padding: 50px;
   text-align: center;
-  font-size: xx-large; }
+  font-size: xx-large;
+}
 
 .perfil {
   margin-left: auto;
@@ -104,22 +127,27 @@ body {
   font-size: larger;
   text-align: left;
   font-style: oblique;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 20px; }
+  height: 20px;
+}
 
 .perfil__texto {
-  padding: 25px; }
+  padding: 25px;
+}
 
 .imagenesHorizontales {
   margin-bottom: 10px;
   display: block;
   width: 100%;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 .imagenesCompletas {
   object-position: center;
@@ -127,13 +155,16 @@ footer {
   display: block;
   width: 100%;
   height: 100%;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 .icono {
   width: 40px;
   height: 40px;
   color: white;
-  opacity: 1; }
+ opacity: 1;
+
+}
 
 .descriptionProfile {
   font-family: 'Montserrat', sans-serif;
@@ -142,27 +173,32 @@ footer {
   font-size: 1.7rem;
   font-weight: 300;
   color: white;
-  padding: 30px 15px 0px 15px; }
+  padding: 30px 15px 0px 15px;
+}
 
 .profilePerson {
   display: flex;
   padding: 50px;
-  padding-top: 90px; }
+  padding-top: 90px;
+}
 
 .imagineFull {
   height: 100%;
   display: block;
   width: 100%;
-  padding-top: 50px; }
+  padding-top: 50px;
+}
 
 #aboutUs {
   background-color: #2a2e2b;
   padding-top: 105px;
-  padding-bottom: 85px; }
+  padding-bottom: 85px;
+}
 
 .titleNormal {
-  font-weight: bold;
-  font-family: monospace; }
+font-weight: bold;
+font-family: monospace;
+}
 
 .titleAbout {
   font-weight: 700;
@@ -170,22 +206,26 @@ footer {
   text-align: center;
   color: white;
   padding-bottom: 25px;
-  font-family: monospace; }
+  font-family: monospace;
+}
 
 .restDescription {
   text-align: center;
   font-family: monospace;
   padding: 25px;
-  font-size: large; }
+  font-size: large;
+}
 
 #contacto {
   padding-top: 105px;
-  padding-bottom: 85px; }
+  padding-bottom: 85px;
+}
 
 .contacto__contenedor {
   margin: 1rem 0;
   display: flex;
-  width: 100%; }
+  width: 100%;
+}
 
 .h3 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -193,14 +233,17 @@ footer {
   font-size: 2.9rem;
   text-align: center;
   color: white;
-  padding: 80px; }
+  padding: 80px;
+}
 
 .contactoContenedor {
   width: 450px;
   margin: auto;
   padding: 36px 20px;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 .articulo {
   background-color: gray;
@@ -209,7 +252,8 @@ footer {
   padding: 50px;
   box-sizing: border-box;
   font-size: 17px;
-  border: none; }
+  border: none;
+}
 
 .imagenesContainer {
   grid-gap: 36px;
@@ -218,34 +262,45 @@ footer {
   padding: 50px;
   align-items: center;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+}
 
 @keyframes T {
   0% {
     opacity: 0.9;
-    color: black; }
+    color: black;
+  }
+
   100% {
     opacity: 1;
-    color: beige; } }
+    color: beige;
+  }
+}
 
 .animationT {
   animation-duration: 3.5s;
   animation-name: T;
   animation-iteration-count: infinite;
   font-weight: bold;
-  color: gray; }
+  color: gray;
+ }
 
-@media (min-width: 576px) {
-  orientation: landscape; }
+ // X-Small devices (portrait phones, less than 576px)
+ // No media query for `xs` since this is the default in Bootstrap
+ 
+ // Small devices (landscape phones, 576px and up)
+ @media (min-width: 576px) { orientation: landscape; }
+ 
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) { orientation: landscape; }
+ 
+ // Large devices (desktops, 992px and up)
+ @media (min-width: 992px) { orientation: landscape; }
+ 
+ // X-Large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) { orientation: landscape; }
+ 
+ // XX-Large devices (larger desktops, 1400px and up)
+ @media (min-width: 1400px) { orientation: landscape; }
 
-@media (min-width: 768px) {
-  orientation: landscape; }
 
-@media (min-width: 992px) {
-  orientation: landscape; }
-
-@media (min-width: 1200px) {
-  orientation: landscape; }
-
-@media (min-width: 1400px) {
-  orientation: landscape; }
