@@ -5,6 +5,10 @@
 .parrafo {
   color: beige; }
 
+  .imagenesPerfiles {
+  width: 85%;
+  height: 87%;
+}
 /*!
  * Bootstrap Grid v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -56,7 +60,12 @@ ul {
 
 #grilla {
   display: grid;
-  grid-template-areas: "header" "video" "imagenes" "perfiles" "videoFooter" "footer"; }
+  grid-template-areas: "header"
+ "video"
+ "imagenes"
+ "perfiles"
+ "videoFooter"
+ "footer"; }
 
 .border {
   border: 1px solid black; }
